@@ -1,0 +1,26 @@
+.pictures {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.p-c {
+  max-width: 1400px;
+  margin: auto;
+}
+.zuragnuud {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.image1 {
+  width: 220px;
+  height: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+.image1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

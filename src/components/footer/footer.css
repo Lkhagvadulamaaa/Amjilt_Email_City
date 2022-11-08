@@ -1,0 +1,118 @@
+footer {
+  width: 100%;
+  background-color: #fff;
+}
+.f-container {
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.f-full {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between; /*shahdg*/
+}
+
+.f-box {
+  width: 100%;
+}
+
+.f-text {
+  width: 100%;
+  height: 100%;
+}
+
+.f-text1 h1 {
+  font-size: 25px;
+}
+
+.f-li ul {
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.f-text1 {
+  width: 100%;
+}
+
+.f-text1 ul {
+  list-style: none;
+  width: 100%;
+}
+
+.f-text1 ul li {
+  width: 100%;
+  line-height: 40px;
+  border-bottom: 1px solid #000;
+}
+
+.f-text1 ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.f-bottom {
+  width: 100%;
+  background-color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.f-bottom h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
+.logo-5 {
+  width: 100%;
+}
+
+.brand {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.brand-1 {
+  display: flex;
+  width: 100%;
+  color: #000;
+  font-size: 12px;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.fo-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+}
+
+.fo-text p {
+  font-size: 30px;
+}
+
+.fo-lo {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.fo-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
