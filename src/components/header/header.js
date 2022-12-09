@@ -1,5 +1,7 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./header.css";
+
 const Header = () => {
   return (
     <div>
@@ -56,25 +58,31 @@ const Header = () => {
             <div className="menus">
               <ul className="menus-ul roboto">
                 <li>
-                  <a href="/">Нүүр</a>
+                  <a href="/">Бүх ангилал</a>
                 </li>
                 <li>
-                  <a href="/">Нүүр</a>
+                  <a href="/">Дэлгэц</a>
                 </li>
                 <li>
-                  <a href="/">Нүүр</a>
+                  <Link to="suurin">Суурин компьютер</Link>
                 </li>
                 <li>
-                  <a href="/">Нүүр</a>
+                  <a href="/">Зөөврийн компьютер</a>
                 </li>
                 <li>
-                  <a href="/">Нүүр</a>
+                  <a href="/">Сэлбэг эд анги</a>
                 </li>
                 <li>
-                  <a href="/">Нүүр</a>
+                  <a href="/">Дагалдаг хэрэгсэл</a>
                 </li>
                 <li>
-                  <a href="/">Нүүр</a>
+                  <a href="/">Оффис тоног төхөөрөмж</a>
+                </li>
+                <li>
+                  <a href="/">Гар утас Таблет</a>
+                </li>
+                <li>
+                  <a href="/">Бусад</a>
                 </li>
               </ul>
             </div>

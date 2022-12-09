@@ -29,7 +29,6 @@
   width: 100%;
   height: 100%;
   padding: 15px;
-  display: flex;
   justify-content: space-between;
   gap: 15px;
 }
@@ -81,7 +80,7 @@
 }
 .shop-4-img-2 {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   gap: 20px;
 }
